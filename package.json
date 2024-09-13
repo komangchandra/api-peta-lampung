@@ -1,0 +1,19 @@
+{
+  "name": "api-map-lampung",
+  "version": "1.0.0",
+  "description": "API untuk menampilkan peta untuk provinsi lampung",
+  "type": "module",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon app.js"
+  },
+  "author": "Komang Chandra Winata",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "express": "^4.21.0",
+    "firebase": "^10.13.1"
+  }
+}
